@@ -1,0 +1,129 @@
+.place-card-container {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.place-card-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-top-left-radius: var(--dl-radius-radius-radius8);
+  border-top-right-radius: var(--dl-radius-radius-radius8);
+}
+.place-card-container1 {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: column;
+}
+.place-card-text {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.place-card-text1 {
+  font-size: 12px;
+  max-width: 250px;
+  margin-bottom: var(--dl-space-space-doubleunit);
+}
+.place-card-root-class-name {
+  flex: 1;
+}
+.place-card-root-class-name1 {
+  flex: 1;
+}
+@media(max-width: 767px) {
+  .place-card-container {
+    width: 200px;
+  }
+}
+@media(max-width: 479px) {
+  .place-card-container {
+    width: 300px;
+  }
+}
+
+.quality-assurance-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.quality-assurance-main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-quadruple);
+  padding-left: var(--dl-space-space-doubleunit);
+  padding-right: var(--dl-space-space-doubleunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-quadruple);
+  justify-content: flex-start;
+}
+.quality-assurance-text {
+  color: var(--dl-color-gray-500);
+}
+.quality-assurance-cards-container {
+  width: 100%;
+  display: flex;
+  grid-gap: var(--dl-space-space-doubleunit);
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin-top: var(--dl-space-space-doubleunit);
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+  justify-content: space-between;
+}
+.quality-assurance-link {
+  display: contents;
+}
+.quality-assurance-component {
+  text-decoration: none;
+}
+.quality-assurance-link1 {
+  display: contents;
+}
+.quality-assurance-component1 {
+  text-decoration: none;
+}
+.quality-assurance-link2 {
+  display: contents;
+}
+.quality-assurance-component2 {
+  text-decoration: none;
+}
+.quality-assurance-link3 {
+  display: contents;
+}
+.quality-assurance-component3 {
+  text-decoration: none;
+}
+.quality-assurance-link4 {
+  display: contents;
+}
+.quality-assurance-component4 {
+  text-decoration: none;
+}
+.quality-assurance-link5 {
+  display: contents;
+}
+.quality-assurance-component5 {
+  text-decoration: none;
+}
+@media(max-width: 991px) {
+  .quality-assurance-cards-container {
+    justify-content: center;
+  }
+}
+@media(max-width: 767px) {
+  .quality-assurance-main {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+}
